@@ -8,11 +8,10 @@ body {
 }
 
 .header {
-    background-image: url(bg.jpg);
-    height: 100vh;
+    background-color: #6db197;
     background-repeat: no-repeat;
-    background-size: 1920px 835px;
-    background-position: bottom     ;
+    background-position: bottom;
+    background-size: cover;
 }
 
 
@@ -24,12 +23,13 @@ body {
 }
 
 .nav-item {
-    color: #007969;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: 700;
+    
     font-size: 25px;
-
+    font-weight: 650;
     margin-right: 25px;
+    
 
     transition: color 0.3s linear;
 }
@@ -83,6 +83,10 @@ body {
     padding: 14px 18px;
     font-weight: 700;
     border-radius:10px;
+    margin: 10px;
+
+
+
 
     transition: background-color 0.2s linear;
 }
@@ -93,6 +97,7 @@ body {
 
 .logo{
   border-radius: 10px;
+
   
 }
 
@@ -101,9 +106,9 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 1300px;
   position: relative;
-  margin: auto;
+  margin: 30px;
 }
 
 /* Hide the images by default */
