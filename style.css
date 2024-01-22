@@ -27,7 +27,7 @@ body {
     color: #007969;
     text-decoration: none;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
 
     margin-right: 25px;
 
@@ -171,5 +171,9 @@ body {
 
 .active, .dot:hover {
   background-color: #717171;
+
 }
+
+
+  
 
