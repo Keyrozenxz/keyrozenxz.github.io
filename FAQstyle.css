@@ -81,7 +81,7 @@ body {
     padding: 14px 18px;
     font-weight: 700;
     border-radius:10px;
-    margin: 10px;
+    margin: 25px;
 
 
 
@@ -115,7 +115,7 @@ summary::marker{display:none;}
 summary {
    display:block;
    padding: .3em 1em .3em .9em;
-   border-bottom: 1px solid rgb(0, 58, 51);
+   border-bottom: 1px solid rgba(125, 250, 235, 0.705);
    font-size:1.4em;
    cursor: pointer;
    position: relative;
