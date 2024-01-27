@@ -170,7 +170,7 @@ body {
 
 }
 
-@media all and (max-width : 1024px) {
+@media all and (max-width : 1500px) {
   body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
