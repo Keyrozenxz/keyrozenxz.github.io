@@ -5,6 +5,7 @@ body {
 
 .container {
     margin: 0px 250px;
+    min-height: 100vh;
 }
 
 .header {
@@ -178,6 +179,7 @@ body {
 
 .container {
     margin: 0px 50px;
+    min-height: 100vh;
 }
 
 .header {

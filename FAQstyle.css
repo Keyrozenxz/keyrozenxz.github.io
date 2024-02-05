@@ -1,23 +1,47 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+html{
+  height: 100%;
 }
 
 .container {
+  
   margin: 0px 350px;
+  min-height: 100vh;
 }
 
 .header {
     background-color: #6db197;
     background-size: cover;
+    height: auto;
+    
 }
 
+
+.FAQtext{
+    font-size: 50px;
+    color: aliceblue;
+    background-color: rgba(0, 58, 51, 0.808);
+    border-radius: 10px;  }
+
+.faq_buttons{
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 .header-line {
   padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: auto;
 }
 
 .nav-item {
@@ -28,6 +52,7 @@ body {
   font-weight: 650;
   margin-right: 25px;
   transition: color 0.3s linear;
+  height: auto    ;
 }
 
 .nav-item:hover {
@@ -69,7 +94,7 @@ body {
   font-weight: 700;
   border-radius:10px;
   margin: 25px;
-
+  height: auto;
 
 
 
@@ -99,6 +124,7 @@ body {
 
 .container {
   margin: 0px 50px;
+  min-height: 100vh;
 }
 
 .header {
@@ -192,8 +218,8 @@ margin-right: 10px;
 body{background: #edf2f7;}
 details{
   display:block;
-  background: rgb(0, 58, 51);
-  width:400px;
+  background: rgba(0, 58, 51, 0.803);
+  width:1000px;
   box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
   overflow:hidden;
@@ -205,13 +231,13 @@ summary::marker{display:none;}
 summary {
    display:block;
    padding: .3em 1em .3em .9em;
-   border-bottom: 1px solid rgba(125, 250, 235, 0.705);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.363);
    font-size:1.4em;
    cursor: pointer;
    position: relative;
 }
 summary:before {  
-  top: .4em;
+  top: .4em;  
   right: .3em;
   color: transparent;
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
